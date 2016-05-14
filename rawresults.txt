@@ -1,0 +1,37 @@
+ESTART: C:/Users/alkpongsema/Documents/CMP464DS/ProjectFiles/potholes_mapped.py 
+ mean is: 4.72619019685
+ mode is: [0.0]
+ range is: 368.592071759
+ stdv is: 7.05972152986
+ iqr is: 6.09408564815
+ 1st std dv away from mean is: 11.7859117267
+ 2nd std dv away from mean is: 18.8456332566
+ 3rd std dv away from mean is: 25.9053547864
+Borough counts (all potholes): 
+Counter({'QUEENS': 24319, 'BROOKLYN': 20992, 'STATEN ISLAND': 12429, 'MANHATTAN': 10991, 'BRONX': 8117})
+Total potholes: 76848
+Borough counts (potholes longer than 1 stdv): 
+Counter({'BROOKLYN': 4391, 'STATEN ISLAND': 3074, 'MANHATTAN': 1468, 'BRONX': 1414, 'QUEENS': 222})
+Total potholes longer than 1 stdv: 10569
+Borough counts (potholes longer than 1 stdv): 
+Counter({'BROOKLYN': 1567, 'STATEN ISLAND': 1434, 'MANHATTAN': 587, 'BRONX': 522, 'QUEENS': 5})
+Total potholes longer than 1 stdv: 4115
+Borough counts (potholes longer than 1 stdv): 
+Counter({'STATEN ISLAND': 352, 'BROOKLYN': 161, 'MANHATTAN': 103, 'BRONX': 64, 'QUEENS': 4})
+Total potholes longer than 1 stdv: 684
+>>> 
+ RESTART: C:\Users\alkpongsema\Documents\CMP464DS\ProjectFiles\reason_for_collision.py 
+nonzero_tuples_loc is length 76848
+nonzero_tuples_loc[0] = (40.763932070030876, -73.97221449293332)
+nonzero_tuples_loc[0][0] = 40.76393207
+number of collisions due to pavement: 0
+Counter()
+collvals length is: 246
+>>> 
+ RESTART: C:\Users\alkpongsema\Documents\CMP464DS\ProjectFiles\reason_for_collision.py 
+nonzero_tuples_loc is length 76848
+nonzero_tuples_loc[0] = (40.763932070030876, -73.97221449293332)
+nonzero_tuples_loc[0][0] = 40.76393207
+number of collisions due to pavement: 246
+Counter({'': 66, 'BROOKLYN': 63, 'MANHATTAN': 41, 'QUEENS': 39, 'BRONX': 28, 'STATEN ISLAND': 9})
+collvals length is: 246
